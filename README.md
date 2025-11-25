@@ -49,7 +49,8 @@ Updating 950d576..3710fa5
 Todos os comandos foram executados via terminal utilizando chave SSH:
 ### Comandos de Rafael Felipe Ueda
 
-```$ git config --global user.name
+```
+$ git config --global user.name
 RafaelUeda
 $ git config --global user.email
 rafael.ueda@fortmobile.com.br
@@ -65,7 +66,8 @@ $ ssh -T git@github.com
 Hi RafaelUeda! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-```git pull
+```
+git pull
 remote: Enumerating objects: 7, done.
 remote: Counting objects: 100% (7/7), done.
 remote: Compressing objects: 100% (3/3), done.
@@ -80,7 +82,8 @@ Fast-forward
  2 files changed, 94 insertions(+), 12 deletions(-)
 ```
 
-```git add .
+```
+git add .
 git commit -m "update README.md with personal colaborations and checked code integrity"      
 [main eadd270] update README.md with personal colaborations and checked code integrity
  1 file changed, 34 insertions(+), 11 deletions(-)
