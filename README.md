@@ -16,7 +16,7 @@ Desenvolver colaborativamente um algoritmo em Portugol de Calculadora de Saúde,
 
 ### Luiz Felipe Gonsalves Silva
 - Como Configurou o Git? Configurei o meu user name e user email, logo após, adicionei uma nova chave ssh
-- Fizz `git pull` após o commit do Rafael Ueda.
+- Fiz `git pull` após o commit do Rafael Ueda.
 - Adicionei lógica para calculadora de água e atualizei readme
 
 
