@@ -15,34 +15,9 @@ Desenvolver colaborativamente um algoritmo em Portugol de Calculadora de Saúde,
 - Criou o arquivo `algoritmo.por` com a estrutura inicial: Criei também o arquivo algoritmo.por, para iniciar a estruturação do algoritmo de Calculadora de IMC.
 
 ### Luiz Felipe Gonsalves Silva
-$ git config --global user.name
-LFSilva02
-$ git config --global user.email
-luizfelipe.silva@edu.unifil.br
-$ ls -al ~/.ssh
-total 22
-drwxr-xr-x 1 lfsil 197609    0 Nov 19 17:29 ./
-drwxr-xr-x 1 lfsil 197609    0 Nov 24 14:40 ../
--rw-r--r-- 1 lfsil 197609  432 Nov 19 17:31 id_ed25519
--rw-r--r-- 1 lfsil 197609  113 Nov 19 17:31 id_ed25519.pub
--rw-r--r-- 1 lfsil 197609 3401 Nov 19 17:29 id_rsa
--rw-r--r-- 1 lfsil 197609  757 Nov 19 17:29 id_rsa.pub
-- Fiz `git pull` após o commit do Rafael Ueda.
- git pull
-remote: Enumerating objects: 6, done.
-remote: Counting objects: 100% (6/6), done.
-remote: Compressing objects: 100% (4/4), done.
-remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
-Unpacking objects: 100% (4/4), 1.39 KiB | 142.00 KiB/s, done.
-From github.com:RafaelUeda/PortugolColab
-   950d576..3710fa5  main       -> origin/main
-Updating 950d576..3710fa5
-
- README.md     | 48 ++++++++++++++++++++++++++++++++++++++++++++++--
- algoritmo.por | 14 ++++++++++++++
- 2 files changed, 60 insertions(+), 2 deletions(-)
- create mode 100644 algoritmo.por
-- Adicionou lógica de ... 
+- Como Configurou o Git? Configurei o meu user name e user email, logo após, adicionei uma nova chave ssh
+- Fizz `git pull` após o commit do Rafael Ueda.
+- Adicionei lógica para calculadora de água e atualizei readme
 
 
 ### Comandos utilizados
@@ -91,6 +66,46 @@ git commit -m "update README.md with personal colaborations and checked code int
 
 ### Comandos de Luiz Felipe Gonsalves Silva
 
+```
+$ git config --global user.name
+LFSilva02
+$ git config --global user.email
+luizfelipe.silva@edu.unifil.br
+$ ls -al ~/.ssh
+total 22
+drwxr-xr-x 1 lfsil 197609    0 Nov 19 17:29 ./
+drwxr-xr-x 1 lfsil 197609    0 Nov 24 14:40 ../
+-rw-r--r-- 1 lfsil 197609  432 Nov 19 17:31 id_ed25519
+-rw-r--r-- 1 lfsil 197609  113 Nov 19 17:31 id_ed25519.pub
+-rw-r--r-- 1 lfsil 197609 3401 Nov 19 17:29 id_rsa
+-rw-r--r-- 1 lfsil 197609  757 Nov 19 17:29 id_rsa.pub
+
+```
+- Fiz `git pull` após o commit do Rafael Ueda.
+
+```
+ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.39 KiB | 142.00 KiB/s, done.
+From github.com:RafaelUeda/PortugolColab
+   950d576..3710fa5  main       -> origin/main
+Updating 950d576..3710fa5
+
+ README.md     | 48 ++++++++++++++++++++++++++++++++++++++++++++++--
+ algoritmo.por | 14 ++++++++++++++
+ 2 files changed, 60 insertions(+), 2 deletions(-)
+ create mode 100644 algoritmo.por
+ ```
+
+ ```
+git add .
+git commit -m "add water calculator and update readme"
+[main 2fd7dfb] add water calculator and update readme
+ 2 files changed, 94 insertions(+), 12 deletions(-)
+ ```
 
 ## Observações
 Cada etapa foi realizada por apenas um integrante por vez, 
