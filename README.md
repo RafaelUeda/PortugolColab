@@ -11,7 +11,7 @@ Desenvolver colaborativamente um algoritmo em Portugol de Calculadora de Saúde,
 
 ### Rafael Felipe Ueda
 - Como criou? Criei este repositório público no GitHub, e adicionei o arquivo inicial README.md, para versionar todos os passos realizados nesse projeto.
-- Como Configurou o Git? Já havia configurado o GitHub e o Git anteriormente por conta do meu estágio atual na empresa Fortmobile Contabilidade Digital, por conta disso o e-mail configurado tem final: @fortmobile.com.br. (é possível visualizar meu e-mail na seção de "Comandos de Rafael Felipe Ueda")
+- Como Configurou o Git? Já havia configurado o GitHub e o Git anteriormente por conta do meu estágio atual na empresa Fortmobile Contabilidade Digital, por conta disso o e-mail configurado tem final: @fortmobile.com.br. (é possível visualizar meu e-mail na seção de [Comandos de Rafael Felipe Ueda](#comandos_de_rafael_felipe_ueda))
 - Criou o arquivo `algoritmo.por` com a estrutura inicial: Criei também o arquivo algoritmo.por, para iniciar a estruturação do algoritmo de Calculadora de IMC.
 
 ### Luiz Felipe Gonsalves Silva
