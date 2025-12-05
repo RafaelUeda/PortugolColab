@@ -5,14 +5,16 @@
 - Luiz Felipe Gonsalves Silva
 
 ## Objetivo
-Desenvolver colaborativamente um algoritmo em Portugol de Calculadora de Saúde, tanto obtendo o IMC (Índice de Massa Corporal) do usuário, quanto a quantidade de água recomendada para beber.
+Desenvolver colaborativamente um algoritmo em Portugol que funcione como uma Calculadora de Saúde, contendo:
+- Cálculo de IMC (Índice de Massa Corporal)
+- Cálculo da quantidade recomendada de água por dia
 
 ## Etapas realizadas por cada membro
 
 ### Rafael Felipe Ueda
-- Como criou? Criei este repositório público no GitHub, e adicionei o arquivo inicial README.md, para versionar todos os passos realizados nesse projeto.
-- Como Configurou o Git? Já havia configurado o GitHub e o Git anteriormente por conta do meu estágio atual na empresa Fortmobile Contabilidade Digital, por conta disso o e-mail configurado tem final: @fortmobile.com.br. (é possível visualizar meu e-mail na seção de [Comandos de Rafael Felipe Ueda](#comandos_de_rafael_felipe_ueda))
-- Criou o arquivo `algoritmo.por` com a estrutura inicial: Criei também o arquivo algoritmo.por, para iniciar a estruturação do algoritmo de Calculadora de IMC.
+- Como criou? Criei este repositório público no GitHub chamado PortugolColab, e adicionei/configurei o arquivo inicial README.md, para versionar todos os passos realizados nesse projeto, com descrições detalhadas de cada modificação realizada. Fiz o primeiro commit do repositório via SSH.
+- Como Configurou o Git? Já havia configurado o Git anteriormente por conta do meu estágio atual na empresa Fortmobile Contabilidade Digital, por conta disso tenho o usuário RafaelUeda, e o e-mail configurado com final: @fortmobile.com.br. (é possível visualizar meu e-mail na seção de [Comandos de Rafael Felipe Ueda](#comandos_de_rafael_felipe_ueda))
+- Criou o arquivo `algoritmo.por` com a estrutura inicial: Criei também o arquivo algoritmo.por, para iniciar a estruturação base do algoritmo de Calculadora de IMC. Declarei as variáveis principais: `massa, altura, imc`, implementei a entrada de dados necessária para o cálculo do IMC, adicionei a fórmula do IMC: `imc <- massa / (altura * altura)`, e exibi o valor calculado.
 
 ### Luiz Felipe Gonsalves Silva
 - Como Configurou o Git? Aceitei o invite para editar o repositório que o Rafael Ueda criou, configurei o meu user name e user email, logo após, adicionei uma nova chave ssh
@@ -24,6 +26,7 @@ Desenvolver colaborativamente um algoritmo em Portugol de Calculadora de Saúde,
 Todos os comandos foram executados via terminal utilizando chave SSH:
 ### Comandos de Rafael Felipe Ueda
 
+Configuração da chave SSH:
 ```
 $ git config --global user.name
 RafaelUeda
@@ -41,6 +44,7 @@ $ ssh -T git@github.com
 Hi RafaelUeda! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
+Após realizar o primeiro commit, meu colega alterou o repositório, portanto rodei o `git pull`:
 ```
 git pull
 remote: Enumerating objects: 7, done.
@@ -57,11 +61,33 @@ Fast-forward
  2 files changed, 94 insertions(+), 12 deletions(-)
 ```
 
+Alterei o README.md com algumas colaborações pessoais e chequei a integridade do código desenvolvido pelo meu colega:
 ```
 git add .
 git commit -m "update README.md with personal colaborations and checked code integrity"      
 [main eadd270] update README.md with personal colaborations and checked code integrity
  1 file changed, 34 insertions(+), 11 deletions(-)
+```
+
+Após feedbacks do professor Eron Ponce Pereira, reformulei a estrutura do README.md para deixar completo, com 100% dos códigos executados no terminal bem descritos aqui. Portanto dei um git pull:
+```
+git pull
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 4), reused 3 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 3.72 KiB | 82.00 KiB/s, done.
+From github.com:RafaelUeda/PortugolColab
+   9a3de50..3e164e8  main       -> origin/main
+Updating 9a3de50..3e164e8
+Fast-forward
+ README.md | 70 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 42 insertions(+), 28 deletions(-)
+```
+
+Depois de realizar as alterações no Visual Studio Code, dei um git add . (para adicionar todos os arquivos alterados), um git commit -m 'Refactor README.md for clarity and completeness, adding detailed descriptions of project objectives and member contributions' (para adicionar uma mensagem ao meu commit), e um git push:
+```
+
 ```
 
 ### Comandos de Luiz Felipe Gonsalves Silva
@@ -107,5 +133,7 @@ git commit -m "add water calculator and update readme"
  ```
 
 ## Observações
-Cada etapa foi realizada por apenas um integrante por vez, 
-respeitando a ordem de commits e a integridade do código.
+- Cada etapa foi realizada por apenas um integrante por vez, respeitando a ordem de commits e a integridade do código, conforme exigido.
+- Cada membro fez pull -> edição -> commit -> push, evitando conflitos de merge.
+- O código foi construído progressivamente, mantendo integridade e rastreabilidade.
+- O README foi atualizado por ambos os membros e contém logs completos para validação do professor.
