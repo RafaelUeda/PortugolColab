@@ -17,9 +17,16 @@ Desenvolver colaborativamente um algoritmo em Portugol que funcione como uma Cal
 - Criou o arquivo `algoritmo.por` com a estrutura inicial: Criei também o arquivo algoritmo.por, para iniciar a estruturação base do algoritmo de Calculadora de IMC. Declarei as variáveis principais: `massa, altura, imc`, implementei a entrada de dados necessária para o cálculo do IMC, adicionei a fórmula do IMC: `imc <- massa / (altura * altura)`, e exibi o valor calculado.
 
 ### Luiz Felipe Gonsalves Silva
-- Como Configurou o Git? Aceitei o invite para editar o repositório que o Rafael Ueda criou, configurei o meu user name e user email, logo após, adicionei uma nova chave ssh
-- Fiz `git pull` após o commit do Rafael Ueda.
-- Adicionei lógica para calculadora de água e atualizei readme
+- Como Configurou o Git? Aceitei o convite para colaborar no repositório criado pelo Rafael Ueda. Configurei meu user.name e user.email, e adicionei uma nova chave SSH.
+- Fiz git pull após o commit do Rafael Ueda para sincronizar o repositório antes de iniciar minhas alterações.
+-  Implementei toda a lógica da Calculadora de Água, adicionando:
+   entrada de peso
+   cálculo da hidratação base
+   verificação de prática de exercícios
+   cálculo do ajuste de 20% quando aplicável
+   exibição do resultado final
+
+Atualizei o README para registrar minhas contribuições e mantê-lo consistente com o progresso do projeto.
 
 
 ### Comandos utilizados
