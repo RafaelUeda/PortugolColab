@@ -15,7 +15,7 @@ Desenvolver colaborativamente um algoritmo em Portugol de Calculadora de Saúde,
 - Criou o arquivo `algoritmo.por` com a estrutura inicial: Criei também o arquivo algoritmo.por, para iniciar a estruturação do algoritmo de Calculadora de IMC.
 
 ### Luiz Felipe Gonsalves Silva
-- Como Configurou o Git? Configurei o meu user name e user email, logo após, adicionei uma nova chave ssh
+- Como Configurou o Git? Aceitei o invite para editar o repositório que o Rafael Ueda criou, configurei o meu user name e user email, logo após, adicionei uma nova chave ssh
 - Fiz `git pull` após o commit do Rafael Ueda.
 - Adicionei lógica para calculadora de água e atualizei readme
 
@@ -99,7 +99,6 @@ Updating 950d576..3710fa5
  2 files changed, 60 insertions(+), 2 deletions(-)
  create mode 100644 algoritmo.por
  ```
-
  ```
 git add .
 git commit -m "add water calculator and update readme"
