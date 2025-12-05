@@ -20,11 +20,11 @@ Desenvolver colaborativamente um algoritmo em Portugol que funcione como uma Cal
 - Como Configurou o Git? Aceitei o convite para colaborar no repositório criado pelo Rafael Ueda. Configurei meu user.name e user.email, e adicionei uma nova chave SSH.
 - Fiz git pull após o commit do Rafael Ueda para sincronizar o repositório antes de iniciar minhas alterações.
 -  Implementei toda a lógica da Calculadora de Água, adicionando:
-   entrada de peso
-   cálculo da hidratação base
-   verificação de prática de exercícios
-   cálculo do ajuste de 20% quando aplicável
-   exibição do resultado final
+   - entrada de peso
+   - cálculo da hidratação base
+   - verificação de prática de exercícios
+   - cálculo do ajuste de 20% quando aplicável
+   - exibição do resultado final
 
 Atualizei o README para registrar minhas contribuições e mantê-lo consistente com o progresso do projeto.
 
