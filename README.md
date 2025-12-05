@@ -87,7 +87,19 @@ Fast-forward
 
 Depois de realizar as alterações no Visual Studio Code, dei um git add . (para adicionar todos os arquivos alterados), um git commit -m 'Refactor README.md for clarity and completeness, adding detailed descriptions of project objectives and member contributions' (para adicionar uma mensagem ao meu commit), e um git push:
 ```
-
+git commit -m 'Refactor README.md for clarity and completeness, enhancing project objectives and member contributions'
+[main da9a8d4] Refactor README.md for clarity and completeness, enhancing project objectives and member contributions
+ 1 file changed, 34 insertions(+), 6 deletions(-)
+PS C:\Users\RafaelUeda\Study\PortugolColab> git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.50 KiB | 1.50 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:RafaelUeda/PortugolColab.git
+   3e164e8..da9a8d4  main -> main
 ```
 
 ### Comandos de Luiz Felipe Gonsalves Silva
